@@ -1,11 +1,14 @@
 {
     "scripts": {
-        "start": "ts-node-dev --respawn ./src/app.ts",
-        "build": "tsc"
+        "start": "NODE_PATH=./dist node dist/app.js",
+        "build": "tsc -p .",
+        "dev": "ts-node-dev --respawn ./src/app.ts",
+        "prod": "tsc && node ./dist/app.js"
     },
     "dependencies": {
         "dotenv": "^16.0.0",
-        "express": "^4.17.3"
+        "express": "^4.17.3",
+        "pug": "^3.0.2"
     },
     "devDependencies": {
         "@babel/core": "^7.10.3",
@@ -21,7 +24,6 @@
         "less-loader": "^6.1.0",
         "mini-css-extract-plugin": "^0.9.0",
         "optimize-css-assets-webpack-plugin": "^5.0.3",
-        "pug": "^3.0.2",
         "style-loader": "^1.2.1",
         "ts-node": "^10.6.0",
         "ts-node-dev": "^1.1.8",

@@ -1,6 +1,6 @@
 # node-express-template-ts
 
-node.js template including express, pug, webpack, docker configuration, jquery, bootstrap with typescript
+node.js typescript template including express, pug, webpack, docker configuration, jquery, bootstrap
 
 create a file named ```.env``` and set environment variables as in ```.env.example```
 
@@ -8,7 +8,7 @@ run the project locally
 
 ```
 npm i (or yarn install)
-npm run start
+npm run dev
 ```
 
 run the project on docker
