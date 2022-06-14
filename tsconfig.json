@@ -6,7 +6,8 @@
     "rootDir": "src",
     "strict": true,
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types", "./@types"]
   },
-  "exclude": ["./node_modules"]
+  "exclude": ["./node_modules", "webpack.config.ts"]
 }

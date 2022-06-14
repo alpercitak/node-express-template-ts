@@ -69,7 +69,7 @@ const config = {
   mode: 'production',
 };
 
-const exportables = [];
+const exportables: any = [];
 const items = [
   { name: 'app', path: 'views/__shared/app.js' },
   { name: 'modules/home', path: 'views/home/index.js' },
