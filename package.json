@@ -1,4 +1,11 @@
 {
+  "name": "node-express-template-ts",
+  "version": "1.0.0",
+  "description": "Node Express Template - Typescript",
+  "main": "index.js",
+  "repository": "https://github.com/alpercitak/node-express-template-ts.git",
+  "author": "Alper Çıtak <citak.alper@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "NODE_PATH=./dist node dist/app.js",
     "build": "tsc -p .",
