@@ -4,10 +4,10 @@
     "build": "tsc -p .",
     "dev": "ts-node-dev --respawn ./src/app.ts",
     "prod": "tsc && node ./dist/app.js",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@prettier/plugin-pug": "^2.1.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "pug": "^3.0.2"
@@ -17,11 +17,18 @@
     "@babel/plugin-transform-runtime": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.4",
+    "@prettier/plugin-pug": "^2.1.0",
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.21",
     "@types/pug": "^2.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "file-loader": "^6.0.0",
     "less-loader": "^6.1.0",
     "mini-css-extract-plugin": "^0.9.0",
