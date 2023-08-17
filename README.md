@@ -7,8 +7,8 @@ create a file named `.env` and set environment variables as in `.env.example`
 run the project locally
 
 ```
-npm i (or yarn install)
-npm run dev
+npm i (yarn install | pnpm install)
+npm run dev (yarn dev | pnpm dev)
 ```
 
 run the project on docker

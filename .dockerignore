@@ -1,0 +1,9 @@
+.git
+node_modules
+.husky
+.eslint*
+.prettier*
+docker-compose.yml
+Dockerfile
+README.md
+webpack.config.js

@@ -1,8 +1,8 @@
 import express, { Request, Response, NextFunction, Application } from 'express';
 import 'dotenv/config';
 
-const PORT = process.env.PORT || 8000;
-const NAME = process.env.NAME || '';
+const PORT = process.env.PORT ?? 8000;
+const NAME = process.env.NAME ?? '';
 
 const app: Application = express();
 

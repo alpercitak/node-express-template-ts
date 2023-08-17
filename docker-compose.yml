@@ -5,8 +5,5 @@ services:
       context: .
       dockerfile: Dockerfile
     image: ${NAME}:local
-    volumes:
-      - ./:/usr/app
-      - /usr/app/node_modules/
     ports:
       - ${PORT}:${PORT}
