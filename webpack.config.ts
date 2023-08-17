@@ -62,7 +62,6 @@ const config = {
       chunkFilename: '[id].css',
     }),
   ],
-  watch: true,
   watchOptions: {
     ignored: ['node_modules/**'],
   },
