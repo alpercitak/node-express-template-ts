@@ -46,6 +46,7 @@
     "optimize-css-assets-webpack-plugin": "^6.0.1",
     "prettier": "^3.5.3",
     "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.14",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "tslib": "^2.8.1",
