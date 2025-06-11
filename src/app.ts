@@ -1,4 +1,4 @@
-import express, { Request, Response, NextFunction, Application } from 'express';
+import express, { type Request, type Response, type NextFunction, type Application } from 'express';
 import 'dotenv/config';
 
 const PORT = process.env.PORT ?? 8000;
