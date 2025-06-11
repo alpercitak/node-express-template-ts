@@ -78,7 +78,7 @@ items.map((x) => {
     ...config,
     name: x.name,
     entry: { [x.name]: path.join(__dirname, x.path) },
-    output: { path: path.join(__dirname, 'public/assets'), filename: x.name + '.min.js' },
+    output: { path: path.join(__dirname, './dist/public/assets'), filename: x.name + '.min.js' },
   });
 });
 
