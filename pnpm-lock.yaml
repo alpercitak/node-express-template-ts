@@ -38,7 +38,7 @@ importers:
         version: 9.28.0
       '@prettier/plugin-pug':
         specifier: ^3.4.0
-        version: 3.4.0(prettier@3.5.3)
+        version: 3.4.2(prettier@3.5.3)
       '@types/express':
         specifier: ^5.0.3
         version: 5.0.3
@@ -756,9 +756,9 @@ packages:
     resolution: {integrity: sha512-YLT9Zo3oNPJoBjBc4q8G2mjU4tqIbf5CEOORbUUr48dCD9q3umJ3IPlVqOqDakPfd2HuwccBaqlGhN4Gmr5OWg==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@prettier/plugin-pug@3.4.0':
-    resolution: {integrity: sha512-Jzd5rE/ellJz3vqfxyVewPsCHXw1dmIzJ3AXhAnqVBKQOj2u73ZS2oUacji8CbQSsYyCy7GXFjXWDlDTMG1x2g==}
-    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
+  '@prettier/plugin-pug@3.4.2':
+    resolution: {integrity: sha512-/VOVeIscKYlPpsZrjrRV+44ZftCEIJq9Z/zR8PtAz/EDv82TKscw3z+fhTVqRz68G1TqQ/5COMFUVfPwPBH90w==}
+    engines: {node: '>=20.0.0', npm: '>=10.0.0'}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -2433,8 +2433,9 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sax@1.4.1:
-    resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
+  sax@1.4.4:
+    resolution: {integrity: sha512-1n3r/tGXO6b6VXMdFT54SHzT9ytu9yr7TaELowdYpMqY/Ao7EnlQGmAQ1+RatX7Tkkdm6hONI2owqNx2aZj5Sw==}
+    engines: {node: '>=11.0.0'}
 
   schema-utils@3.3.0:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
@@ -3609,7 +3610,7 @@ snapshots:
 
   '@pkgr/core@0.2.7': {}
 
-  '@prettier/plugin-pug@3.4.0(prettier@3.5.3)':
+  '@prettier/plugin-pug@3.4.2(prettier@3.5.3)':
     dependencies:
       prettier: 3.5.3
       pug-lexer: 5.0.1
@@ -4871,7 +4872,7 @@ snapshots:
   needle@3.3.1:
     dependencies:
       iconv-lite: 0.6.3
-      sax: 1.4.1
+      sax: 1.4.4
     optional: true
 
   negotiator@1.0.0: {}
@@ -5341,7 +5342,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sax@1.4.1:
+  sax@1.4.4:
     optional: true
 
   schema-utils@3.3.0:
