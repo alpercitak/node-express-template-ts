@@ -1,5 +1,9 @@
 # node-express-template-ts
 
+![Build](https://github.com/alpercitak/node-express-template-ts/actions/workflows/build.yaml/badge.svg) 
+![Lint](https://github.com/alpercitak/node-express-template-ts/actions/workflows/lint.yaml/badge.svg) 
+![License](https://img.shields.io/github/license/alpercitak/node-express-template-ts)
+
 node.js typescript template including express, pug, webpack, docker configuration, jquery, bootstrap
 
 create a file named `.env` and set environment variables as in `.env.example`
