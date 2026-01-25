@@ -86,7 +86,7 @@ importers:
         version: 12.3.0(less@4.3.0)(webpack@5.99.9)
       mini-css-extract-plugin:
         specifier: ^2.9.2
-        version: 2.9.2(webpack@5.99.9)
+        version: 2.10.0(webpack@5.99.9)
       optimize-css-assets-webpack-plugin:
         specifier: ^6.0.1
         version: 6.0.1(webpack@5.99.9)
@@ -1898,8 +1898,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  mini-css-extract-plugin@2.9.2:
-    resolution: {integrity: sha512-GJuACcS//jtq4kCtd5ii/M0SZf7OZRH+BxdqXZHaJfb8TJiVl+NgQRPwiYt2EuqeSkNydn/7vP+bcE27C5mb9w==}
+  mini-css-extract-plugin@2.10.0:
+    resolution: {integrity: sha512-540P2c5dYnJlyJxTaSloliZexv8rji6rY8FhQN+WF/82iHQfA23j/xtJx97L+mXOML27EqksSek/g4eK7jaL3g==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
@@ -2569,6 +2569,10 @@ packages:
 
   tapable@2.2.2:
     resolution: {integrity: sha512-Re10+NauLTMCudc7T5WLFLAwDhQ0JWdrMK+9B2M8zR5hRExKmsRDCBA7/aV/pNJFltmBFO5BAMlQFi/vq3nKOg==}
+    engines: {node: '>=6'}
+
+  tapable@2.3.0:
+    resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
     engines: {node: '>=6'}
 
   terser-webpack-plugin@5.3.16:
@@ -4840,10 +4844,10 @@ snapshots:
   mime@1.6.0:
     optional: true
 
-  mini-css-extract-plugin@2.9.2(webpack@5.99.9):
+  mini-css-extract-plugin@2.10.0(webpack@5.99.9):
     dependencies:
-      schema-utils: 4.3.2
-      tapable: 2.2.2
+      schema-utils: 4.3.3
+      tapable: 2.3.0
       webpack: 5.99.9(webpack-cli@6.0.1)
 
   minimatch@3.1.2:
@@ -5498,6 +5502,8 @@ snapshots:
       '@pkgr/core': 0.2.9
 
   tapable@2.2.2: {}
+
+  tapable@2.3.0: {}
 
   terser-webpack-plugin@5.3.16(webpack@5.99.9):
     dependencies:
